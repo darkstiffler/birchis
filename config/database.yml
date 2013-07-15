@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: birchis_dev
+  pool: 5
+  username: aries
+  password: !QAZxsw2
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: birchis_test
+  pool: 5
+  username: aries
+  password: !QAZxsw2
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: birchis
+  pool: 5
+  username: aries
+  password: !QAZxsw2
